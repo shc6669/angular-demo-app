@@ -7,26 +7,9 @@ const Routing: Routes = [
       import('./dashboard/dashboard.module').then((m) => m.DashboardModule),
   },
   {
-    path: 'crafted/pages/profile',
+    path: 'pages/profile',
     loadChildren: () =>
       import('../modules/profile/profile.module').then((m) => m.ProfileModule),
-  },
-  {
-    path: 'crafted/account',
-    loadChildren: () =>
-      import('../modules/account/account.module').then((m) => m.AccountModule),
-  },
-  {
-    path: 'crafted/pages/wizards',
-    loadChildren: () =>
-      import('../modules/wizards/wizards.module').then((m) => m.WizardsModule),
-  },
-  {
-    path: 'crafted/widgets',
-    loadChildren: () =>
-      import('../modules/widgets-examples/widgets-examples.module').then(
-        (m) => m.WidgetsExamplesModule
-      ),
   },
   {
     path: '',
