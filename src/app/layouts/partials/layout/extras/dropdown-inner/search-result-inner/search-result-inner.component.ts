@@ -45,60 +45,41 @@ interface ResultModel {
 
 const resultModels: Array<ResultModel> = [
   {
-    'image': './assets/media/avatars/300-6.jpg',
-    'title': 'Karina Clark',
-    'description': 'Marketing Manager'
-  },
-  {
-    'image': './assets/media/avatars/300-2.jpg',
-    'title': 'Olivia Bold',
+    'image': './assets/media/avatars/Admin.jpg',
+    'title': 'Chandrayana Putra',
     'description': 'Software Engineer'
   },
   {
-    'image': './assets/media/avatars/300-9.jpg',
-    'title': 'Ana Clark',
+    'image': './assets/media/avatars/User1.jpg',
+    'title': 'Orange Fruit',
     'description': 'UI/UX Designer'
   },
   {
-    'image': './assets/media/avatars/300-14.jpg',
-    'title': 'Nick Pitola',
-    'description': 'Art Director'
+    'image': './assets/media/avatars/User2.jpg',
+    'title': 'Ana Clark',
+    'description': 'System Administrator'
   },
   {
-    'image': './assets/media/avatars/300-11.jpg',
-    'title': 'Edward Kulnic',
-    'description': 'System Administrator'
+    'image': './assets/media/avatars/User3.jpg',
+    'title': 'Green Day',
+    'description': 'User Tester'
   }
 ];
 
 const recentlySearchedModels: Array<ResultModel> = [
   {
-    'icon': './assets/media/icons/duotune/electronics/elc004.svg',
-    'title': 'BoomApp by Keenthemes',
-    'description': '#45789'
-  }, {
-    'icon': './assets/media/icons/duotune/graphs/gra001.svg',
-    'title': '"Kept API Project Meeting',
-    'description': '#84050'
-  }, {
-    'icon': './assets/media/icons/duotune/graphs/gra006.svg',
-    'title': '"KPI Monitoring App Launch',
-    'description': '#84250'
-  }, {
-    'icon': './assets/media/icons/duotune/graphs/gra002.svg',
-    'title': 'Project Reference FAQ',
-    'description': '#67945'
-  }, {
     'icon': './assets/media/icons/duotune/communication/com010.svg',
     'title': '"FitPro App Development',
     'description': '#84250'
-  }, {
+  },
+  {
     'icon': './assets/media/icons/duotune/finance/fin001.svg',
     'title': 'Shopix Mobile App',
     'description': '#45690'
-  }, {
+  },
+  {
     'icon': './assets/media/icons/duotune/graphs/gra002.svg',
     'title': '"Landing UI Design" Launch',
     'description': '#24005'
-  }
+  }  
 ];

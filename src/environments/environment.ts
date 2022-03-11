@@ -10,11 +10,11 @@ export const environment = {
   apiUrl: 'api',
   appThemeName: 'AngularApp',
   appPurchaseUrl: 'https://1.envato.market/EA4JP',
-  appHTMLIntegration: 'https://preview.keenthemes.com/AngularApp8/demo2/documentation/base/helpers/flex-layouts.html',
-  appPreviewUrl: 'https://preview.keenthemes.com/AngularApp8/angular/demo2/',
-  appPreviewAngularUrl: 'https://preview.keenthemes.com/AngularApp8/angular/demo2',
-  appPreviewDocsUrl: 'https://preview.keenthemes.com/AngularApp8/angular/docs',
-  appPreviewChangelogUrl: 'https://preview.keenthemes.com/AngularApp8/angular/docs/changelog',
+  appHTMLIntegration: 'https://https://angular.io/AngularApp8/demo2/documentation/base/helpers/flex-layouts.html',
+  appPreviewUrl: 'https://https://angular.io/AngularApp8/angular/demo2/',
+  appPreviewAngularUrl: 'https://https://angular.io/AngularApp8/angular/demo2',
+  appPreviewDocsUrl: 'https://https://angular.io/AngularApp8/angular/docs',
+  appPreviewChangelogUrl: 'https://https://angular.io/AngularApp8/angular/docs/changelog',
   appDemos: {
     'demo1': {
       'title': 'Demo 1',

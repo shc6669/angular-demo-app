@@ -2,6 +2,7 @@ import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {TranslationService} from './modules/i18n';
 // language list
 import {locale as enLang} from './modules/i18n/vocabs/en';
+import {locale as idLang} from './modules/i18n/vocabs/id';
 import {locale as chLang} from './modules/i18n/vocabs/ch';
 import {locale as esLang} from './modules/i18n/vocabs/es';
 import {locale as jpLang} from './modules/i18n/vocabs/jp';
@@ -20,6 +21,7 @@ export class AppComponent implements OnInit {
     // register translations
     this.translationService.loadTranslations(
       enLang,
+      idLang,
       chLang,
       esLang,
       jpLang,
