@@ -2,7 +2,7 @@ export class UsersTable {
   public static users: any = [
     {
       id: 1,
-      username: 'admin',
+      username: 'shc6669',
       password: 'admin123',
       email: 'admin@demo.com',
       authToken: 'auth-token-8f3ae836da744329a6f93bf20594b5cc',
