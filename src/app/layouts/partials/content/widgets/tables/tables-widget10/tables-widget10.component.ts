@@ -9,7 +9,7 @@ import { WidgetsService } from '../../widgets.service';
 })
 export class TablesWidget10Component implements OnInit {
   apiDatas: any = {};
-  apiUserDatas = [];
+  apiUserDatas: any[] = [];
   user$: Observable<UserType>;
 
   constructor(
